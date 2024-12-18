@@ -176,6 +176,31 @@
     width: 350px;
     display: flex;
   }
+  section:nth-child(3)>div:nth-child(10)>a,
+  section:nth-child(3)>div button{
+    background-color: #B88E2F;
+    color: #ffffff;
+    border: #ffffff solid;
+    transition: .3s;
+    transform: scale(1.2); 
+    position: relative;
+    top: -5px;
+    transition: 500ms;
+    border-radius: 10px;
+  }
+  section:nth-child(3)>div>div:nth-child(3)>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: fit-content;
+  }
+
+  section:nth-child(3)>div>div:nth-child(3)>div>div>i, 
+  section:nth-child(3)>div>div:nth-child(3)>div>div>span{
+    color: #ffffff;
+    font-size: 100%;
+  }
 
   /*First section*/
   section:nth-child(2)>div:first-child{
