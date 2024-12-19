@@ -1,0 +1,50 @@
+{
+  "Syltherine":{
+    "discription":"Stylish cafe chair",
+    "price":2500,
+    "oldPrice":3500,
+    "image":"../image/images.png"
+  },
+  "Leviosa":{
+    "discription":"Stylish cafe chair",
+    "price":2500,
+    "oldPrice":null,
+    "image":"../image/images (1).png"
+  },
+  "Lolito":{
+    "discription":"Luxury big sofa",
+    "price":7000,
+    "oldPrice":14000,
+    "image":"../image/images (2).png"
+  },
+  "Respira":{
+    "discription":"Outdoor bar table and stool",
+    "price":500,
+    "oldPrice":null,
+    "image":"../image/images (3).png"
+  },
+  "Grifo":{
+    "discription":"Night lamp",
+    "price":1500,
+    "oldPrice":null,
+    "image":"../image/images (4).png"
+  },
+  "Muggo":{
+    "discription":"Small mug",
+    "price":15000,
+    "oldPrice":null,
+    "image":"../image/images (5).png"
+  },
+  "Pingky":{
+    "discription":"Cute bed set",
+    "price":7000,
+    "oldPrice":14000,
+    "image":"../image/images (6).png"
+  },
+  "Potty":{
+    "discription":"Minimalist flower pot",
+    "price":500,
+    "oldPrice":null,
+    "image":"../image/images (7).png"
+  }
+}

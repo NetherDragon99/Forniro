@@ -59,7 +59,7 @@ header>nav>div:last-child>input , header>nav>div:last-child>label:nth-child(6),
 
 
 /*JS*/
-nav>div:nth-child(3)>span{
+nav>div:nth-child(3)>span,.sidebar>div:nth-child(3)>span{
   position: relative;
 }
 .counter{
@@ -75,6 +75,38 @@ nav>div:nth-child(3)>span{
   line-height: 20px;
 }
 
+/*Cart Menue*/
+.cartMenue{
+  background-color: black;
+  width: 500px;
+  height: 0px;
+  position: fixed;
+  right: 0;
+  top: 100px;
+  transition: 1s ease-in-out;
+}
+.on{
+  height: calc(100vh - 100px);
+}
+
+/*@keyframes cartMenue {
+  0%{
+    display: block;
+    height: 0px;
+  }
+  100%{
+    height: calc(100vh - 100px);
+  }
+}
+@keyframes cartMenueR {
+  0%{
+    height: calc(100vh - 100px);
+  }
+  100%{
+    display: none;
+    height: 0px;
+  }
+}
 
 /*Menue*/
 #menu:checked ~ .sidebar{
@@ -82,13 +114,16 @@ nav>div:nth-child(3)>span{
   transition: 0.70s ease-out;
 }
 #menu:checked ~ #cout{
-  position: fixed;
+  position: absolute;
   z-index: 9;
   left: 0;
   top: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
+  display: block;
 }
+
+
 .sidebar{
   background-color: rgb(255, 255, 255);
   width: 250px;
